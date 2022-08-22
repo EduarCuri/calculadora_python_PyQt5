@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>291</width>
-    <height>429</height>
+    <height>431</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -50,7 +50,7 @@ color: rgb(255, 255, 255);</string>
      <string>+/-</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_2">
+   <widget class="QPushButton" name="btn0">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -83,7 +83,7 @@ color: rgb(255, 255, 255);</string>
      <string>0</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_punto">
+   <widget class="QPushButton" name="btnpunto">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -116,7 +116,7 @@ color: rgb(255, 255, 255);</string>
      <string>.</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_igual">
+   <widget class="QPushButton" name="btnigual">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -149,7 +149,7 @@ color: rgb(0, 0, 0);</string>
      <string>=</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_1">
+   <widget class="QPushButton" name="btn1">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -182,7 +182,7 @@ color: rgb(255, 255, 255);</string>
      <string>1</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_2">
+   <widget class="QPushButton" name="btn2">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -215,7 +215,7 @@ color: rgb(255, 255, 255);</string>
      <string>2</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_3">
+   <widget class="QPushButton" name="btn3">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -248,7 +248,7 @@ color: rgb(255, 255, 255);</string>
      <string>3</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_adicion">
+   <widget class="QPushButton" name="btnadicion">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -281,7 +281,7 @@ color: rgb(255, 255, 255);</string>
      <string>+</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_4">
+   <widget class="QPushButton" name="btn4">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -314,7 +314,7 @@ color: rgb(255, 255, 255);</string>
      <string>4</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_5">
+   <widget class="QPushButton" name="btn5">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -347,7 +347,7 @@ color: rgb(255, 255, 255);</string>
      <string>5</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_6">
+   <widget class="QPushButton" name="btn6">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -380,7 +380,7 @@ color: rgb(255, 255, 255);</string>
      <string>6</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_resta">
+   <widget class="QPushButton" name="btnresta">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -413,7 +413,7 @@ color: rgb(255, 255, 255);</string>
      <string>-</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_7">
+   <widget class="QPushButton" name="btn7">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -446,7 +446,7 @@ color: rgb(255, 255, 255);</string>
      <string>7</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_8">
+   <widget class="QPushButton" name="btn8">
     <property name="geometry">
      <rect>
       <x>80</x>
@@ -479,7 +479,7 @@ color: rgb(255, 255, 255);</string>
      <string>8</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_9">
+   <widget class="QPushButton" name="btn9">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -512,7 +512,7 @@ color: rgb(255, 255, 255);</string>
      <string>9</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_multiplicacion">
+   <widget class="QPushButton" name="btnmultiplicacion">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -545,7 +545,7 @@ color: rgb(255, 255, 255);</string>
      <string>X</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_borrar">
+   <widget class="QPushButton" name="btnborrar">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -611,7 +611,7 @@ color: rgb(255, 255, 255);</string>
      <string>%</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_limpiar">
+   <widget class="QPushButton" name="btnlimpiar">
     <property name="geometry">
      <rect>
       <x>150</x>
@@ -644,7 +644,7 @@ color: rgb(255, 255, 255);</string>
      <string>C</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="btn_division">
+   <widget class="QPushButton" name="btndivision">
     <property name="geometry">
      <rect>
       <x>220</x>
@@ -681,17 +681,14 @@ color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>20</y>
-      <width>261</width>
-      <height>71</height>
+      <y>30</y>
+      <width>271</width>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Segoe UI Variable Small</family>
-      <pointsize>15</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
+      <pointsize>20</pointsize>
      </font>
     </property>
     <property name="styleSheet">
